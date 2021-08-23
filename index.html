@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Parcel Sandbox</title>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Open+Sans+Condensed:wght@300&family=Open+Sans:wght@400;600&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div id="wrapper">
+        <div class="title">
+            <div>
+                <h1>eCalendar</h1>
+            </div>
+            <div class="year">
+                <p>2021</p>
+            </div>
+        </div>
+        <div class="calendar">
+            <div class="month">
+                <div>JULY</div>
+                <div class="current-month">AUGUST</div>
+                <div>SEPTEMBER</div>
+            </div>
+            <hr>
+            <div class="days">
+                <div class="w-ends">SUN</div>
+                <div>MON</div>
+                <div class="current-day">TUE</div>
+                <div>WED</div>
+                <div>THU</div>
+                <div>FRI</div>
+                <div class="w-ends">SAT</div>
+            </div>
+            <div class="dates">
+                <div class="prev-dates">25</div>
+                <div class="prev-dates">26</div>
+                <div class="prev-dates">27</div>
+                <div class="prev-dates">28</div>
+                <div class="prev-dates">29</div>
+                <div class="prev-dates">30</div>
+                <div class="prev-dates">31</div>
+                <div class="sun">1</div>
+                <div>2</div>
+                <div>3</div>
+                <div>4</div>
+                <div>5</div>
+                <div>6</div>
+                <div class="sat">7</div>
+                <div class="sun">8</div>
+                <div>9</div>
+                <div>10</div>
+                <div>11</div>
+                <div>12</div>
+                <div>13</div>
+                <div class="sat">14</div>
+                <div class="sun">15</div>
+                <div>16</div>
+                <div class="current-date">17</div>
+                <div>18</div>
+                <div>19</div>
+                <div>20</div>
+                <div class="sat">21</div>
+                <div class="sun">22</div>
+                <div>23</div>
+                <div>24</div>
+                <div>25</div>
+                <div>26</div>
+                <div>27</div>
+                <div class="sat">28</div>
+                <div class="sun">29</div>
+                <div>30</div>
+                <div>31</div>
+                <div class="next-date">1</div>
+                <div class="next-date">2</div>
+                <div class="next-date">3</div>
+                <div class="next-date">4</div>
+            </div>
+        </div>
+        <div class="events">
+            <div class="overlay">
+                <div class="sign fcolor"><a href="#">Sign-In</a></div>
+                <div class="event-day fcolor">Tuesday</div>
+                <div class="event-month fcolor">AUGUST 17</div>
+                <div class="add-event fcolor">Add An Event</div>
+                <div id='modalBtn' class="plus">+</div>
+                <div class="event-todo fcolor">
+                    <p>Dentist Appointment</p>
+                    <br>
+                    <p>Ashley's Birthday</p>
+                    <br>
+                    <p>Proposal Date</p>
+                </div>
+                <div class="event-date fcolor">
+                    <p>5</p>
+                    <br>
+                    <p>18</p>
+                    <br>
+                    <p>23</p>
+                </div>
+                <div class="vertical-line"></div>
+            </div>
+            <div id='eventModal' class="modal">
+                <div class="modal-content">
+                    <span class="closeBtn">&times;</span>
+                    <p class="modal-title">Event</p>
+                    <hr>
+                    <button class="saveBtn">Save Event</button>
+                    <div class="event-set">
+                        <p class="x1">Start Date</p>
+                        <p class="x2">Month</p>
+                        <p class="x3">Day</p>
+                        <p class="x4">End Date</p>
+                        <p class="x5">Month</p>
+                        <p class="x6">Day</p>
+                    </div>
+                    <div class="extras">
+                        <p>People</p>
+                        <p>Location</p>
+                        <p>Description</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="prev">
+            <span><a href='#'>&#10094</a></span>
+        </div>
+        <div class="next">
+            <span><a href='#'>&#10095</a></span>
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
